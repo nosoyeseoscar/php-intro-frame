@@ -1,0 +1,20 @@
+{
+    "name": "oscar.fuentes/php-intro-frame",
+    "description": "Proyecto básico",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oscar Fuentes",
+            "email": "ofuentese@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
